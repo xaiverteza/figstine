@@ -282,7 +282,7 @@ client.on("interactionCreate", async interaction => {
       }
 
       const imageUrl = interaction.options.getString("image_url");
-      if (imageUrl && !/^https?:\\/\\//i.test(imageUrl)) {
+      if (imageUrl && !/^https?:\/\//i.test(imageUrl)) {
         return interaction.reply({ content: "Please provide a valid HTTP or HTTPS image URL.", ephemeral: true });
       }
 

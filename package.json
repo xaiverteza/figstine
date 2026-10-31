@@ -1,0 +1,17 @@
+{
+  "name": "figstine",
+  "version": "1.0.0",
+  "description": "A collectible character and figurine Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7"
+  }
+}
